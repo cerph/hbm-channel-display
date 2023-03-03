@@ -1,9 +1,16 @@
 # hbm-channel-display
 
-i made this in 1.12.2, and because 1.12.2 does not have an interface, here's mine (i'll make it a pr) 
+![](https://cdn.discordapp.com/attachments/1031544497127030844/1062215636631167066/image-7.png)
 
+i made this in 1.12.2, and because 1.12.2 does not have an interface, here's mine (now merged with alcater's version):
 https://github.com/cerph/Hbm-s-Nuclear-Tech-GIT/releases
 
+- automatically populates/updates the channels at program startup
+- ~3 second refresh delay
+- made for reasim and i've never tested with a non-reasim boiler setup (it's very simple to make it work though)
+- i put in arbitrary values for the alerts, ur gonna want to change those (at bottom)
+
+---
 
 the program is an unoptimized piece of shit so in opencomputers config, do this:
 
@@ -14,7 +21,3 @@ and while ur here, do this so you can modify files out of game:
 ![](https://gcdnb.pbrd.co/images/fRDgzt65f8pR.png?o=1)
 
 in ur saves folder find the correct filesystem and put in all the above files replacing when necessary
-
----
-
-plug cable into bottom center block of a console and run program (ur gonna have to turn off pc when u want control again)

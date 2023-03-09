@@ -7,7 +7,6 @@ local buffer = require("doubleBuffering")
 
 --------------------------------------------------------------------------------
 
-GPU.setResolution(126, 63)
 GPU.setResolution(120, 60)
 
 --------------------------------------------------------------------------------
@@ -152,14 +151,13 @@ local color_lookup = {
     [4] = 0xFF00FF,  -- PURPLE
 }
 
-local index = 1
 local occupied_indexes = {}
 
 local grid_layout = container:addChild(GUI.layout(1, 1, container.width, container.height, 15, 15))
 layout_size(grid_layout)
 render_indexes()
 
--- INITIALIZE INDEX TABLE AND RENDER STATIC GRID
+-- POPULATE INDEX TABLE AND RENDER STATIC GRID
 for x=1, 15 do
     for y=15, 1, -1 do
         braille = GUI.brailleCanvas(1, 1, 8, 4)
@@ -192,7 +190,6 @@ for x=1, 15 do
         end
 
         pos = grid_layout:setPosition(x, y, grid_layout:addChild(column))
-        index = index + 1
     end
 end
 

@@ -11,14 +11,8 @@ made for 1.12.2 (1.7.10 uses a different interface, gl)
 
 ---
 
-the program is an unoptimized piece of shit, so in opencomputers config, do this:
-
-![](https://gcdnb.pbrd.co/images/Ps7dacxY15TU.png?o=1)
-
-and while ur here, do this so u can modify files out of game:
-
-![](https://gcdnb.pbrd.co/images/fRDgzt65f8pR.png?o=1)
+the program is an unoptimized piece of shit so disable the memory limit in opencomputers config.
 
 in ur saves folder, find the correct filesystem and put in all the above files--replacing when necessary
 
-(if some1 can lmk why the screen is fucked when setting the resolution without first using the startup script)
+(why is the screen fucked when setting the resolution without first using the startup script?)
